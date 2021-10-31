@@ -1,0 +1,12 @@
+[programs.localnet]
+liftskit_membership_v3 = "88hTydB9esnUMmX7gVUb5PrdLgnJ8YvEiqCr9vZ1cXrH"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/travis/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
